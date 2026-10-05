@@ -1,0 +1,5 @@
+tracker,video,frames,input_fps,resolution,detections,track_rows,unique_ids,frames_with_tracks,avg_tracks_per_frame,ids_per_100_frames,processing_time_sec,processing_fps,output_size_bytes,output_size_mb,output_width,output_height,output_fps,output_frames
+ByteTrack,video0.avi,998,29.0,1920x1080,13053,11763,22,998,11.7866,2.2044,378.788,2.635,41546880,39.622,1920,1080,29.0,998
+OC-SORT,video0.avi,998,29.0,1920x1080,13053,10649,23,998,10.6703,2.3046,379.657,2.629,41034297,39.133,1920,1080,29.0,998
+BoT-SORT,video0.avi,998,29.0,1920x1080,13053,11457,21,998,11.48,2.1042,1101.219,0.906,41456200,39.536,1920,1080,29.0,998
+Deep SORT,video0.avi,998,29.0,1920x1080,13053,15337,63,996,15.3677,6.3126,1051.395,0.949,49461405,47.17,1920,1080,29.0,998

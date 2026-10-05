@@ -1,0 +1,2 @@
+pipeline,model,video,frames,input_fps,width,height,confidence,image_size,device,processing_time_sec,processing_fps,detections,output
+ONNX_CPU,YOLO11m,video0.avi,998,29.000,1920,1080,0.25,640,cpu,624.910,1.597,13291,C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\video0_onnx\video0_yolo11m_onnx.mp4

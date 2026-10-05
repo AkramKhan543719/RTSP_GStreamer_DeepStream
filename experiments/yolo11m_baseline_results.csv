@@ -1,0 +1,5 @@
+tracker,video,frames,processing_time_sec,processing_fps,detections,tracks,IDF1,HOTA,MOTA,ID_switches
+Baseline,video1,274,133.945,2.046,687,,,,,
+Baseline,video2,601,254.516,2.361,738,,,,,
+Baseline,video3,450,201.096,2.238,683,,,,,
+Baseline,video4,1739,564.085,3.083,3383,,,,,

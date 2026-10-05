@@ -1,0 +1,123 @@
+====================================================================================================
+VIDEO0 TRACKER DETAILED ANALYSIS
+====================================================================================================
+
+Video       : video0.avi
+Frames      : 998
+Input FPS   : 29.0
+Resolution  : 1920x1080
+
+====================================================================================================
+ByteTrack
+====================================================================================================
+Track rows                  : 11763
+Unique IDs                  : 22
+Frames with tracks          : 998
+Frame coverage              : 100.00%
+Average track length        : 534.68 frames
+Median track length         : 630.50 frames
+Minimum track length        : 31 frames
+Maximum track length        : 998 frames
+Single-frame tracks         : 0
+Tracks >= 10 frames        : 22
+Tracks >= 30 frames        : 22
+Tracks >= 100 frames       : 20
+Average active tracks/frame : 11.79
+Minimum active tracks/frame : 5
+Maximum active tracks/frame : 17
+Average rows/frame          : 11.79
+Fragmentation events        : 6
+Total missing frame gaps    : 40
+Longest missing gap         : 25 frames
+Average confidence          : 0.7566
+Minimum confidence          : 0.2591
+Maximum confidence          : 0.9297
+Average bbox width          : 115.25
+Average bbox height         : 160.99
+Average bbox area           : 18264.29
+
+====================================================================================================
+OC-SORT
+====================================================================================================
+Track rows                  : 10649
+Unique IDs                  : 23
+Frames with tracks          : 998
+Frame coverage              : 100.00%
+Average track length        : 463.00 frames
+Median track length         : 508.00 frames
+Minimum track length        : 13 frames
+Maximum track length        : 998 frames
+Single-frame tracks         : 0
+Tracks >= 10 frames        : 23
+Tracks >= 30 frames        : 21
+Tracks >= 100 frames       : 18
+Average active tracks/frame : 10.67
+Minimum active tracks/frame : 5
+Maximum active tracks/frame : 17
+Average rows/frame          : 10.67
+Fragmentation events        : 118
+Total missing frame gaps    : 1004
+Longest missing gap         : 72 frames
+Average confidence          : 0.7784
+Minimum confidence          : 0.6001
+Maximum confidence          : 0.9297
+Average bbox width          : 117.52
+Average bbox height         : 162.08
+Average bbox area           : 18612.87
+
+====================================================================================================
+BoT-SORT
+====================================================================================================
+Track rows                  : 11457
+Unique IDs                  : 21
+Frames with tracks          : 998
+Frame coverage              : 100.00%
+Average track length        : 545.57 frames
+Median track length         : 641.00 frames
+Minimum track length        : 37 frames
+Maximum track length        : 998 frames
+Single-frame tracks         : 0
+Tracks >= 10 frames        : 21
+Tracks >= 30 frames        : 21
+Tracks >= 100 frames       : 18
+Average active tracks/frame : 11.48
+Minimum active tracks/frame : 5
+Maximum active tracks/frame : 17
+Average rows/frame          : 11.48
+Fragmentation events        : 5
+Total missing frame gaps    : 49
+Longest missing gap         : 21 frames
+Average confidence          : 0.7603
+Minimum confidence          : 0.2581
+Maximum confidence          : 0.9297
+Average bbox width          : 116.91
+Average bbox height         : 161.46
+Average bbox area           : 18526.56
+
+====================================================================================================
+Deep SORT
+====================================================================================================
+Track rows                  : 15337
+Unique IDs                  : 63
+Frames with tracks          : 996
+Frame coverage              : 99.80%
+Average track length        : 243.44 frames
+Median track length         : 120.00 frames
+Minimum track length        : 10 frames
+Maximum track length        : 996 frames
+Single-frame tracks         : 0
+Tracks >= 10 frames        : 63
+Tracks >= 30 frames        : 62
+Tracks >= 100 frames       : 33
+Average active tracks/frame : 15.40
+Minimum active tracks/frame : 6
+Maximum active tracks/frame : 23
+Average rows/frame          : 15.40
+Fragmentation events        : 0
+Total missing frame gaps    : 0
+Longest missing gap         : 0 frames
+Confidence                   : Not available in track file
+Average bbox width          : 104.32
+Average bbox height         : 145.44
+Average bbox area           : 15888.77
+

@@ -1,0 +1,5 @@
+pipeline,model,video,frames,processing_time_sec,processing_fps,detections
+ONNX_CPU,YOLO11m,video1.mp4,274,129.028,2.124,637
+ONNX_CPU,YOLO11m,video2.mp4,601,292.439,2.055,706
+ONNX_CPU,YOLO11m,video3.mp4,450,215.094,2.092,628
+ONNX_CPU,YOLO11m,video4.mp4,1739,815.996,2.131,3207

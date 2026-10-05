@@ -1,0 +1,2 @@
+pipeline,model,video,frames,input_fps,width,height,confidence,image_size,device,processing_time_sec,processing_fps,detections,output
+PT_CPU,YOLO11m,video0.avi,998,29.000,1920,1080,0.25,640,cpu,497.748,2.005,13053,C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\video0_pt\video0_yolo11m_pt.mp4
