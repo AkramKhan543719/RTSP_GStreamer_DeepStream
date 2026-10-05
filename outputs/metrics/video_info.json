@@ -1,0 +1,46 @@
+[
+    {
+        "video": "video1.mp4",
+        "width": 360,
+        "height": 640,
+        "resolution": "360x640",
+        "fps": 30.0,
+        "frames": 274,
+        "duration_seconds": 9.133,
+        "fourcc": "h264",
+        "size_mb": 0.616
+    },
+    {
+        "video": "video2.mp4",
+        "width": 360,
+        "height": 640,
+        "resolution": "360x640",
+        "fps": 24.0,
+        "frames": 601,
+        "duration_seconds": 25.042,
+        "fourcc": "h264",
+        "size_mb": 1.099
+    },
+    {
+        "video": "video3.mp4",
+        "width": 360,
+        "height": 640,
+        "resolution": "360x640",
+        "fps": 30.0,
+        "frames": 450,
+        "duration_seconds": 15.0,
+        "fourcc": "h264",
+        "size_mb": 0.658
+    },
+    {
+        "video": "video4.mp4",
+        "width": 360,
+        "height": 640,
+        "resolution": "360x640",
+        "fps": 29.97,
+        "frames": 1739,
+        "duration_seconds": 58.025,
+        "fourcc": "h264",
+        "size_mb": 2.554
+    }
+]

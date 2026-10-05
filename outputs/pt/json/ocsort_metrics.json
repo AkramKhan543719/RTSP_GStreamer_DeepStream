@@ -1,0 +1,54 @@
+{
+    "project": {
+        "name": "YOLO11m + OC-SORT Object Tracking",
+        "tracker": "OC-SORT"
+    },
+    "model": {
+        "name": "YOLO11m",
+        "format": "pt",
+        "path": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\models\\pytorch\\yolo11m.pt"
+    },
+    "configuration": {
+        "confidence_threshold": 0.25,
+        "iou_threshold": 0.5,
+        "tracker_config": "ocsort.yaml",
+        "device": "CPU"
+    },
+    "video": {
+        "input": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\test_videos\\video0.avi",
+        "width": 1920,
+        "height": 1080,
+        "fps": 29.0,
+        "total_frames": 998
+    },
+    "tracking_statistics": {
+        "frame_count": 998,
+        "total_detections": 10645,
+        "unique_track_ids": 23,
+        "average_active_tracks": 10.66633266533066,
+        "maximum_active_tracks": 17,
+        "average_track_lifetime": 462.82608695652175,
+        "longest_track_lifetime": 998,
+        "average_fps": 2.006295772215744,
+        "average_latency_ms": 498.430995991984,
+        "p95_latency_ms": 498.430995991984,
+        "total_processing_time_seconds": 497.43413400000003
+    },
+    "resources": {
+        "process": {
+            "average_cpu_percent": 663.1886758805093,
+            "peak_cpu_percent": 840.1,
+            "average_ram_mb": 827.1237121391551,
+            "peak_ram_mb": 852.90234375
+        },
+        "system": {
+            "average_cpu_percent": 90.99306732055187,
+            "peak_cpu_percent": 100.0
+        }
+    },
+    "outputs": {
+        "video": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\outputs\\pt\\videos\\ocsort_output.mp4",
+        "json": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\outputs\\pt\\json\\ocsort_metrics.json",
+        "log": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\outputs\\pt\\logs\\ocsort.log"
+    }
+}

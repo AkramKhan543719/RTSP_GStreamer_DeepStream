@@ -1,0 +1,46 @@
+2026-10-05 16:08:35,272 - INFO - ======================================================================
+2026-10-05 16:08:35,273 - INFO - YOLO11m + OC-SORT OBJECT TRACKING
+2026-10-05 16:08:35,274 - INFO - ======================================================================
+2026-10-05 16:08:35,275 - INFO - ROOT        : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream
+2026-10-05 16:08:35,275 - INFO - MODEL       : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\models\pytorch\yolo11m.pt
+2026-10-05 16:08:35,276 - INFO - VIDEO       : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\test_videos\video0.avi
+2026-10-05 16:08:35,276 - INFO - JSON        : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\pt\json\ocsort_metrics.json
+2026-10-05 16:08:35,276 - INFO - VIDEO OUTPUT: C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\pt\videos\ocsort_output.mp4
+2026-10-05 16:08:35,277 - INFO - LOG         : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\pt\logs\ocsort.log
+2026-10-05 16:08:35,290 - INFO - Width       : 1920
+2026-10-05 16:08:35,290 - INFO - Height      : 1080
+2026-10-05 16:08:35,291 - INFO - FPS         : 29.0
+2026-10-05 16:08:35,291 - INFO - Frames      : 998
+2026-10-05 16:08:35,291 - INFO - Loading YOLO11m + OC-SORT...
+2026-10-05 16:08:35,292 - INFO - Tracker loaded successfully.
+2026-10-05 16:08:35,297 - INFO - ======================================================================
+2026-10-05 16:08:35,297 - INFO - STARTING BOXMOT OC-SORT
+2026-10-05 16:08:35,297 - INFO - ======================================================================
+2026-10-05 16:16:52,801 - INFO - ======================================================================
+2026-10-05 16:16:52,801 - INFO - BOXMOT TRACKING FINISHED
+2026-10-05 16:16:52,802 - INFO - Processing time: 497.4341 sec
+2026-10-05 16:16:52,802 - INFO - ======================================================================
+2026-10-05 16:16:52,812 - INFO - Tracking file: C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\trackers\track\video0\tracks.txt
+2026-10-05 16:16:52,812 - INFO - Reading tracking results: C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\trackers\track\video0\tracks.txt
+2026-10-05 16:16:52,847 - INFO - Tracking rows : 10645
+2026-10-05 16:16:52,848 - INFO - Unique IDs    : 23
+2026-10-05 16:16:52,885 - INFO - BoxMOT video: C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\trackers\track\video0\tracks.mp4
+2026-10-05 16:17:22,372 - INFO - Final output video frames: 998
+2026-10-05 16:17:22,376 - INFO - ======================================================================
+2026-10-05 16:17:22,376 - INFO - OC-SORT PROCESSING COMPLETE
+2026-10-05 16:17:22,377 - INFO - ======================================================================
+2026-10-05 16:17:22,377 - INFO - Frames              : 998
+2026-10-05 16:17:22,378 - INFO - Total detections    : 10645
+2026-10-05 16:17:22,378 - INFO - Unique track IDs    : 23
+2026-10-05 16:17:22,379 - INFO - Average active tracks: 10.6663
+2026-10-05 16:17:22,379 - INFO - Maximum active tracks: 17
+2026-10-05 16:17:22,380 - INFO - Average track life  : 462.8261
+2026-10-05 16:17:22,380 - INFO - Longest track life  : 998
+2026-10-05 16:17:22,381 - INFO - Average FPS         : 2.0063
+2026-10-05 16:17:22,381 - INFO - Average latency     : 498.4310 ms
+2026-10-05 16:17:22,382 - INFO - P95 latency         : 498.4310 ms
+2026-10-05 16:17:22,382 - INFO - Processing time     : 497.4341 sec
+2026-10-05 16:17:22,383 - INFO - JSON                : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\pt\json\ocsort_metrics.json
+2026-10-05 16:17:22,383 - INFO - VIDEO               : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\pt\videos\ocsort_output.mp4
+2026-10-05 16:17:22,384 - INFO - LOG                 : C:\Users\PathanMohammedAkramK\OneDrive - Proglint\Desktop\RTSP_GStreamer_DeepStream\outputs\pt\logs\ocsort.log
+2026-10-05 16:17:22,384 - INFO - ======================================================================
