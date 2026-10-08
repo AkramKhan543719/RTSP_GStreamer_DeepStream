@@ -1,0 +1,31 @@
+{
+    "name": "RTSP GStreamer DeepStream - OC-SORT",
+
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+
+    "service": "rtsp-gstreamer-ocsort",
+
+    "workspaceFolder": "/app",
+
+    "shutdownAction": "stopCompose",
+
+    "remoteUser": "root",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-azuretools.vscode-docker"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.terminal.activateEnvironment": false
+            }
+        }
+    },
+
+    "postCreateCommand": "python --version && pip --version"
+}

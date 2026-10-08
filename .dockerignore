@@ -1,0 +1,48 @@
+# Git
+.git
+.github
+.gitattributes
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.venv
+venv
+env
+
+# IDE
+.vscode
+.idea
+.devcontainer
+
+# Large runtime data
+models
+test_videos
+archive
+outputs
+
+# Large model files
+*.pt
+*.onnx
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Raw files
+*.raw
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints

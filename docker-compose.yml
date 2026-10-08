@@ -1,0 +1,38 @@
+services:
+
+  rtsp-gstreamer-ocsort:
+
+    container_name: rtsp-gstreamer-ocsort
+
+    image: rtsp-gstreamer-ocsort:latest
+
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    working_dir: /app
+
+    environment:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONUNBUFFERED: "1"
+      YOLO_CONFIG_DIR: /tmp/Ultralytics
+
+    volumes:
+
+      # Source code
+      - ./pipelines:/app/pipelines
+      - ./02_RTSP_GStreamer:/app/02_RTSP_GStreamer
+      - ./03_FFmpeg_Comparison:/app/03_FFmpeg_Comparison
+      - ./06_Trackers:/app/06_Trackers
+
+      # Models
+      - ./models:/app/models
+
+      # Test videos
+      - ./test_videos:/app/test_videos
+
+      # Results
+      - ./outputs:/app/outputs
+      - ./experiments:/app/experiments
+
+    command: ["tail", "-f", "/dev/null"]

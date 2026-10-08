@@ -1,0 +1,39 @@
+{
+  "project": {
+    "name": "YOLO11m + BoxMOT Object Tracking",
+    "tracker": "OC-SORT",
+    "boxmot_version": "18.0.0"
+  },
+  "model": {
+    "name": "YOLO11m",
+    "format": "pt",
+    "path": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\models\\pytorch\\yolo11m.pt"
+  },
+  "configuration": {
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.5,
+    "image_size": 640,
+    "device": "cpu",
+    "tracker_backend": "ocsort"
+  },
+  "video": {
+    "input": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\test_videos\\video0.avi",
+    "width": 1920,
+    "height": 1080,
+    "fps": 29.0,
+    "total_frames": 998
+  },
+  "tracking_statistics": {
+    "frame_count": 998,
+    "total_detections": 12767,
+    "unique_track_ids": 23,
+    "average_fps": 2.1628400960319984,
+    "average_latency_ms": 462.3550311623247,
+    "total_processing_time_seconds": 461.4303211
+  },
+  "outputs": {
+    "video": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\outputs\\runtime_trackers\\ocsort\\video0_ocsort.mp4",
+    "json": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\outputs\\runtime_trackers\\ocsort\\video0_ocsort_metrics.json",
+    "log": "C:\\Users\\PathanMohammedAkramK\\OneDrive - Proglint\\Desktop\\RTSP_GStreamer_DeepStream\\outputs\\runtime_trackers\\ocsort\\video0_ocsort.log"
+  }
+}
