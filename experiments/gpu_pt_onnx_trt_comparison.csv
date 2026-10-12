@@ -1,0 +1,2 @@
+backend,frames,detections,inference_seconds,average_inference_ms,inference_fps,total_seconds,end_to_end_fps,output_video
+onnx,998,13292,17.6507,17.686,56.54,26.0928,38.25,outputs/gpu_benchmark/onnx/Video0_onnx.mp4
