@@ -1,0 +1,3 @@
+Status: PASS
+Video: /home/kesavannanthagopal/Documents/interns/Akram/RTSP_GStreamer_DeepStream/test_videos/Video0.avi
+Pipeline: filesrc -> decodebin -> videoconvert -> fakesink

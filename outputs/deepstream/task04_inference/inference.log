@@ -1,0 +1,31 @@
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+0:00:03.539520072 [31m3823164[00m 0x62d6f8b913d0 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:682:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::deserializeEngineAndBackend() <nvdsinfer_context_impl.cpp:2095> [UID = 1]: deserialized trt engine from :/home/kesavannanthagopal/Documents/interns/Akram/RTSP_GStreamer_DeepStream/outputs/gpu_benchmark/trt/yolo11m_fp16.engine
+0:00:03.673898374 [31m3823164[00m 0x62d6f8b913d0 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:682:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::generateBackendContext() <nvdsinfer_context_impl.cpp:2198> [UID = 1]: Use deserialized engine model: /home/kesavannanthagopal/Documents/interns/Akram/RTSP_GStreamer_DeepStream/outputs/gpu_benchmark/trt/yolo11m_fp16.engine
+0:00:03.681172825 [31m3823164[00m 0x62d6f8b913d0 [36mINFO   [00m [00m             nvinfer gstnvinfer_impl.cpp:343:notifyLoadModelStatus:<primary_gie>[00m [UID 1]: Load new model:/home/kesavannanthagopal/Documents/interns/Akram/RTSP_GStreamer_DeepStream/tasks/deepstream/task04_inference/config_infer_primary.txt sucessfully
+WARNING: [TRT]: The getMaxBatchSize() function should not be used with an engine built from a network created with NetworkDefinitionCreationFlag::kEXPLICIT_BATCH flag. This function will always return 1.
+INFO: ../nvdsinfer/nvdsinfer_model_builder.cpp:612 [Implicit Engine Info]: layers num: 2
+0   INPUT  kFLOAT images          3x640x640       
+1   OUTPUT kFLOAT output0         84x8400         
+
+
+Runtime commands:
+	h: Print this help
+	q: Quit
+
+	p: Pause
+	r: Resume
+
+** INFO: <bus_callback:291>: Pipeline ready
+
+** INFO: <bus_callback:277>: Pipeline running
+
+
+**PERF:  FPS 0 (Avg)	
+**PERF:  195.08 (193.22)	
+**PERF:  155.21 (161.30)	
+nvstreammux: Successfully handled EOS for source_id=0
+** INFO: <bus_callback:314>: Received EOS. Exiting ...
+
+Quitting
+App run successful

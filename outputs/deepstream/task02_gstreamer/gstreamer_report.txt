@@ -1,0 +1,5 @@
+PASS: nvinfer
+PASS: nvstreammux
+PASS: nvvideoconvert
+PASS: nvdsosd
+PASS: nvv4l2decoder

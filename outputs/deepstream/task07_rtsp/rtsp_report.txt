@@ -1,0 +1,5 @@
+Task 07: RTSP Connectivity Test
+Status: PASS - client pipeline ran and was stopped manually
+RTSP URL: rtsp://127.0.0.1:8554/test
+Stream: H.264 test-pattern video
+Limitation: This does not verify annotated DeepStream streaming.
